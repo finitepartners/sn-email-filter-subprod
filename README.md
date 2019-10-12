@@ -3,9 +3,9 @@
 ![Alt](docs/img/finite-logo-75.png "Finite Logo")
 
 ## Summary
+Allows for multiple users to receive emails sent from sub-production instances.
 
 ## Quick Start
-
 * Prerequsites: _none_
 
 1. Download and install update set from [ServiceNow Share](https://developer.servicenow.com/app.do#!/share/contents/1627055_email_filter_for_sub_production_instances)
@@ -15,7 +15,7 @@
 
 
 ## Administration
-Recommneded security review: _in draft_
+Recommended security review: _in draft_
 
 Recommended post-install instructions: _in draft_ 
 
