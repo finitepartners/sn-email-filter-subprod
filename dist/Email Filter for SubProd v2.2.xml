@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-04-18 00:07:45">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>By: Finite Partners
+GitHub Repo: https://github.com/finitepartners/sn-email-filter-subprod
+SN Share:    https://developer.servicenow.com/connect.do#!/share/contents/1627055_email_filter_for_sub_production_instances
+</description>
+<inserted/>
+<name>Email Filter for SubProd v2.2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>4d3f67601b141010e5bc877ddc4bcb1c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>j4rodm</sys_created_by>
+<sys_created_on>2020-04-18 00:07:45</sys_created_on>
+<sys_id>2e4fefec1bd01010e5bc877ddc4bcbbe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>j4rodm</sys_updated_by>
+<sys_updated_on>2020-04-18 00:07:45</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_67a3ac96db295300cea4abc5ca961974</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="Email Properties">5b546c5767103200cf8305225685ef12</category><order>100</order><property display_value="glide.email.test.group" name="glide.email.test.group">5a31a496db295300cea4abc5ca96190d</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>jennifer.griffin@service-catalyst.com</sys_created_by><sys_created_on>2018-04-20 14:21:24</sys_created_on><sys_id>67a3ac96db295300cea4abc5ca961974</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.email.test.group.Email Properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_67a3ac96db295300cea4abc5ca961974</sys_update_name><sys_updated_by>jennifer.griffin@service-catalyst.com</sys_updated_by><sys_updated_on>2018-04-20 14:21:24</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-643271340</payload_hash>
+<remote_update_set display_value="Email Filter for SubProd v2.2">2e4fefec1bd01010e5bc877ddc4bcbbe</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>j4rodm</sys_created_by>
+<sys_created_on>2020-04-18 00:07:45</sys_created_on>
+<sys_id>2e4fefec1bd01010e5bc877ddc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716fc4224e0000001</sys_recorded_at>
+<sys_updated_by>j4rodm</sys_updated_by>
+<sys_updated_on>2020-04-18 00:07:45</sys_updated_on>
+<table/>
+<target_name>glide.email.test.group.Email Properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>27a3e41acf295300557b1415c8847124</update_guid>
+<update_guid_history>27a3e41acf295300557b1415c8847124:-643271340</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_63a3e41adb295300cea4abc5ca961925</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="Email Outbound Configuration">aa3965faeb410100469a20425206feff</category><order>200</order><property display_value="glide.email.test.group" name="glide.email.test.group">5a31a496db295300cea4abc5ca96190d</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>jennifer.griffin@service-catalyst.com</sys_created_by><sys_created_on>2018-04-20 14:21:24</sys_created_on><sys_id>63a3e41adb295300cea4abc5ca961925</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.email.test.group.Email Outbound Configuration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_63a3e41adb295300cea4abc5ca961925</sys_update_name><sys_updated_by>jennifer.griffin@service-catalyst.com</sys_updated_by><sys_updated_on>2018-04-20 14:21:24</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>241624351</payload_hash>
+<remote_update_set display_value="Email Filter for SubProd v2.2">2e4fefec1bd01010e5bc877ddc4bcbbe</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>j4rodm</sys_created_by>
+<sys_created_on>2020-04-18 00:07:45</sys_created_on>
+<sys_id>6a4fefec1bd01010e5bc877ddc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716fc422550000001</sys_recorded_at>
+<sys_updated_by>j4rodm</sys_updated_by>
+<sys_updated_on>2020-04-18 00:07:45</sys_updated_on>
+<table/>
+<target_name>glide.email.test.group.Email Outbound Configuration</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>63a3e41a6d295300239ccc2233851c26</update_guid>
+<update_guid_history>63a3e41a6d295300239ccc2233851c26:241624351</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_5a31a496db295300cea4abc5ca96190d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Email Filter Group</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.email.test.group</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>jennifer.griffin@service-catalyst.com</sys_created_by><sys_created_on>2018-04-20 14:10:59</sys_created_on><sys_id>5a31a496db295300cea4abc5ca96190d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>glide.email.test.group</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_5a31a496db295300cea4abc5ca96190d</sys_update_name><sys_updated_by>jennifer.griffin@service-catalyst.com</sys_updated_by><sys_updated_on>2018-04-20 14:20:59</sys_updated_on><type>string</type><value>SubProd Email Group</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=5a31a496db295300cea4abc5ca96190d"/></record_update>]]></payload>
+<payload_hash>1455705611</payload_hash>
+<remote_update_set display_value="Email Filter for SubProd v2.2">2e4fefec1bd01010e5bc877ddc4bcbbe</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>j4rodm</sys_created_by>
+<sys_created_on>2020-04-18 00:07:45</sys_created_on>
+<sys_id>a24fefec1bd01010e5bc877ddc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716fc422350000001</sys_recorded_at>
+<sys_updated_by>j4rodm</sys_updated_by>
+<sys_updated_on>2020-04-18 00:07:45</sys_updated_on>
+<table/>
+<target_name>glide.email.test.group</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>f993e8d6c2295300cc23c8ef5a935c14</update_guid>
+<update_guid_history>f993e8d6c2295300cc23c8ef5a935c14:1455705611,5f41a496f9295300dc99c95983494cc9:-2000226132</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_153d06512b3fa1004e23d1b3e4da1520</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>This group should contain only users that wish to receive emails from sub-production ServiceNow instances. These users should be the ones involved in development and testing of ServiceNow configurations.</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>SubProd Email Group</name><parent/><roles/><source/><sys_created_by>admin_SHARE</sys_created_by><sys_created_on>2014-10-15 18:32:40</sys_created_on><sys_id>153d06512b3fa1004e23d1b3e4da1520</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin_SHARE</sys_updated_by><sys_updated_on>2014-10-15 18:32:40</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>-877842465</payload_hash>
+<remote_update_set display_value="Email Filter for SubProd v2.2">2e4fefec1bd01010e5bc877ddc4bcbbe</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>j4rodm</sys_created_by>
+<sys_created_on>2020-04-18 00:07:45</sys_created_on>
+<sys_id>a24fefec1bd01010e5bc877ddc4bcbc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716fc4225c0000001</sys_recorded_at>
+<sys_updated_by>j4rodm</sys_updated_by>
+<sys_updated_on>2020-04-18 00:07:45</sys_updated_on>
+<table/>
+<target_name>SubProd Email Group</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>94c3a41a0329530044f83918f82b9778</update_guid>
+<update_guid_history>94c3a41a0329530044f83918f82b9778:-877842465,d190e0564c295300ce0741b0df9696ae:1265311412</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_1ff716912b3fa1004e23d1b3e4da1566</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access/&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_email&lt;/collection&gt;&lt;condition&gt;gs.getProperty('glide.email.test.group','') != ''&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sys_email"&gt;type=send-ready^bodyNOT LIKEglide.email.test^EQ&lt;item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="send-ready"/&gt;&lt;item endquery="false" field="body" goto="false" newquery="false" operator="NOT LIKE" or="false" value="glide.email.test"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SubProd Email Filter&lt;/name&gt;&lt;order&gt;1&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * SubProd Email Filter v2.2
+ * By: Finite Partners
+ * 
+ * GitHub Repo: https://github.com/finitepartners/sn-email-filter-subprod
+ * SN Share:    https://developer.servicenow.com/connect.do#!/share/contents/1627055_email_filter_for_sub_production_instances
+ *
+ * This code handles checking all outgoing emails for who they're supposed to
+ * send to, and restricts it to only send to a specific group of people.
+ *
+ * This code is compatible with text notifications, and with calendar invites.
+ * This code is overridden by the glide.email.test.user property.
+ *
+ * Example Usage:
+ * On a Dev instance, to have only developers get emails.
+ *
+ * Specifically:
+ * This looks for the property "glide.email.test.group" and if it's populated
+ * it looks at all the recepients of the outbound emails, and checks to see
+ * if those email addresses or phone numbers belong to the members of the
+ * group referenced by sys_id in the property.
+ *
+ * If the user that created the record the email is about happens to be in the
+ * group, they will be added to the recipients list (to simplify testing).
+ *
+ * Note that in the code below:
+ * allowedEmails = people the email is slated to go to
+ * grpMembers = email addresses / phone numbers allowed to receive email.
+ */
+
+if (current.type != 'received') {
+  subprodEmailFilter();
+}
+
+function subprodEmailFilter() {
+  var table = current.target_table;
+  var record = current.instance;
+  var recips = current.recipients.split(',');
+  var cc = current.copied.split(',');
+  var bcc = current.blind_copied.split(',');
+  var body = current.body;
+  var grpMembers = [];
+  var allowedEmails = [];
+  var allowedBCCs = [];
+  var allowedCCs = [];
+  var email = '';
+  var phone = '';
+  var lastUpdate = '';
+  var groupName = '';
+
+  // Grab the sys_id of the email group, and verify it's a valid group.'
+  var testGroup = gs.getProperty('glide.email.test.group', '');
+
+  // If the email is not turned on, then this should not run.
+  if (testGroup == '') {
+    return false;
+  }
+
+  // Validate that the group exists.
+  var grp = new GlideRecord('sys_user_group');
+  if (grp.get('sys_id', testGroup)) {
+    groupName = grp.name.toString();
+  } else if (grp.get('name', testGroup)) {
+    testGroup = grp.sys_id; // Sets the groups sys_id
+    groupName = grp.name.toString();
+  } else {
+    // SubProd Email Group not found, don't send any emails.
+    current.type = 'send-ignored';
+    gs.error('Email Test Group "' + groupName + '" provided but does not match a valid group, so no email has been sent. Check property glide.email.test.group.');
+    return false;
+  }
+
+  // Look through all members of the test group, checking their email and phone.
+  var grpMember = new GlideRecord('sys_user_grmember');
+  grpMember.addQuery('group', testGroup);
+  grpMember.query();
+  var ndv;
+  while (grpMember.next()) {
+    // For each user, check their email
+    email = grpMember.user.email.toString();
+    if (recips.indexOf(email) &gt;= 0) {
+      allowedEmails.push(grpMember.user.email.toString()); // Create an array of emails from the original recipients that are allowed to receive emails
+    }
+    if (bcc.indexOf(email) &gt;= 0) {
+      allowedBCCs.push(grpMember.user.email.toString()); // Create an array of emails from the original recipients that are allowed to receive emails
+    }
+    if (cc.indexOf(email) &gt;= 0) {
+      allowedCCs.push(grpMember.user.email.toString()); // Create an array of emails from the original recipients that are allowed to receive emails
+    }
+    grpMembers.push(grpMember.user.email.toString()); // Create an array of all test group members
+
+    // Lookup that member's notification devices, and add those to the allowed list.
+    ndv = new GlideRecord('cmn_notif_device');
+    ndv.addQuery('active', true);
+    ndv.addQuery('user', grpMember.user);
+    ndv.addQuery('email_address', '!=', email);
+    ndv.query();
+    while (ndv.next()) {
+      if (ndv.type == 'SMS') {
+        phone = String(ndv.phone_number) + '@' + String(ndv.service_provider.email_suffix);
+      } else {
+        phone = String(ndv.email_address);
+      }
+
+      if (recips.indexOf(phone) &gt;= 0) {
+        allowedEmails.push(phone); // Add the phone number to the allowed emails list.
+      }
+      if (bcc.indexOf(phone) &gt;= 0) {
+        allowedBCCs.push(phone); // Create an array of emails from the original recipients that are allowed to receive emails
+      }
+      if (cc.indexOf(phone) &gt;= 0) {
+        allowedCCs.push(phone); // Create an array of emails from the original recipients that are allowed to receive emails
+      }
+      grpMembers.push(phone); // Add the phone number to the group members list.
+    }
+  }
+
+  // Look to see who last updated the referenced record.
+  if (table) {
+    var tableGR = new GlideRecord(table);
+    if (tableGR.get(record)) {
+      lastUpdate = tableGR.sys_updated_by;
+    }
+  }
+
+  // Check to see if the last updated user is in the current allowedEmails array and add them if they are not and valid.
+  // Only do this if there are no valid recipients.
+  if (lastUpdate &amp;&amp; !allowedEmails) {
+    var usr = new GlideRecord('sys_user');
+    usr.addQuery('user_name', lastUpdate);
+    usr.addQuery('notification', 2); // Check to see if the user has notification set to "Email" which is 2.
+    usr.query();
+    if (usr.next()) {
+      if (grpMembers.toString().indexOf(usr.email) &gt;= 0) {
+        // Are they a valid user.
+        if (allowedEmails.toString().indexOf(usr.email) == -1) {
+          // Are they already in the allowedEmails array.
+          allowedEmails.push(usr.email.toString());
+        }
+      }
+    }
+  }
+
+  // If the current recipients field is blank then set the text to NONE.
+  if (recips == '') {
+    recips = 'NONE';
+  }
+
+  // DO NOT APPEND anything if this is a calendar invite. It will mess it up if you do.
+  if (body.indexOf('END:VCALENDAR') &lt; 0) {
+    current.body = body + '&lt;div&gt;&lt;br/&gt;&lt;br/&gt;&lt;hr/&gt;&lt;/div&gt;&lt;div&gt;Testing mode on via system property "glide.email.test.group". Intended recipients: ' + recips + '&lt;/div&gt;&lt;br/&gt;';
+  }
+
+  // If there are no alowed recipients then set the email to send-ignored and clear the recipients field.
+  if (allowedEmails.length == 0) {
+    current.type = 'send-ignored';
+    current.recipients = '';
+  } else {
+    current.recipients = allowedEmails.toString();
+    current.blind_copied = allowedBCCs.toString();
+    current.copied = allowedCCs.toString();
+  }
+  return true;
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_SHARE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2014-10-15 19:22:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1ff716912b3fa1004e23d1b3e4da1566&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;SubProd Email Filter&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1ff716912b3fa1004e23d1b3e4da1566&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;j4rodm&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-17 23:57:14&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1ff716912b3fa1004e23d1b3e4da1566"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>638645113</payload_hash>
+<remote_update_set display_value="Email Filter for SubProd v2.2">2e4fefec1bd01010e5bc877ddc4bcbbe</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>j4rodm</sys_created_by>
+<sys_created_on>2020-04-18 00:07:45</sys_created_on>
+<sys_id>ee4fefec1bd01010e5bc877ddc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1718a93337e0000001</sys_recorded_at>
+<sys_updated_by>j4rodm</sys_updated_by>
+<sys_updated_on>2020-04-18 00:07:45</sys_updated_on>
+<table>sys_email</table>
+<target_name>SubProd Email Filter</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>bcecefec32d01010fc2603b584de0f47</update_guid>
+<update_guid_history>bcecefec32d01010fc2603b584de0f47:638645113,3e8057aee0e73300fac55aae6432eb70:-1680472106,0bcc83aa01e73300ffcde0a80dcd87b4:-1062432458,c7d5e0daba295300bcf3bac2e4635e70:-1505384906,9590e0560b2953007a889f4dd8122fa9:117755476</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
