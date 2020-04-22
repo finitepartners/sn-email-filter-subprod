@@ -1,5 +1,10 @@
 /**
- * SubProd Email Filter v2.1
+ * SubProd Email Filter v2.2
+ * By: Finite Partners https://finite-partners.com/
+ * 
+ * GitHub Repo: https://github.com/finitepartners/sn-email-filter-subprod
+ * SN Share:    https://developer.servicenow.com/connect.do#!/share/contents/1627055_email_filter_for_sub_production_instances
+ *
  * This code handles checking all outgoing emails for who they're supposed to
  * send to, and restricts it to only send to a specific group of people.
  *
@@ -30,9 +35,9 @@ if (current.type != 'received') {
 function subprodEmailFilter() {
   var table = current.target_table;
   var record = current.instance;
-  var recips = current.recipients;
-  var bcc = current.blind_copied;
-  var cc = current.copied;
+  var recips = current.recipients.split(',');
+  var cc = current.copied.split(',');
+  var bcc = current.blind_copied.split(',');
   var body = current.body;
   var grpMembers = [];
   var allowedEmails = [];
@@ -86,6 +91,7 @@ function subprodEmailFilter() {
 
     // Lookup that member's notification devices, and add those to the allowed list.
     ndv = new GlideRecord('cmn_notif_device');
+    ndv.addQuery('active', true);
     ndv.addQuery('user', grpMember.user);
     ndv.addQuery('email_address', '!=', email);
     ndv.query();
