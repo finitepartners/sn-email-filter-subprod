@@ -8,19 +8,16 @@ Allows for multiple users to receive emails sent from sub-production instances.
 ## Quick Start
 * Prerequsites: _none_
 
-1. Download and install update set from [ServiceNow Share](https://developer.servicenow.com/app.do#!/share/contents/1627055_email_filter_for_sub_production_instances)
+1. Download and install update set from [ServiceNow Share](https://developer.servicenow.com/connect.do#!/share/contents/1627055_email_filter_for_sub_production_instances)
 2. Set property `Email sending enabled` to TRUE
 3. Clear value from property `Send all email to this test email address` property
 4. Add desired users to the `SubProd Email Group` group
 
 
 ## Administration
-Recommended security review: _in draft_
-
-Recommended post-install instructions: _in draft_ 
-
-Recommended routine admin tasks: _in draft_
-
+Recommended routine admin tasks:
+* Review outbound emails to ensure expected delivery/non-delivery is occurring
+* Remind contractors/administrators of configuration (so they don't revert the instance to use a single email address)
 
 ## Contribute
 Submit enhancements/defects via this repo's [Issues](../../issues)
